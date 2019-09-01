@@ -1,0 +1,26 @@
+{
+  "name": "langfreak-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' index.ts"
+  },
+  "author": "CommoDor64",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.3",
+    "@types/winston": "^2.4.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.6.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0"
+  }
+}

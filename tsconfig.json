@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "module": "commonjs",
+        "target": "es6",
+        "allowJs": true,
+        "lib": [
+            "es6"
+        ],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./src/",
+        "index.ts",
+        "config"
+    ],
+    "exclude": [
+        "./built"
+    ]
+}
